@@ -42,6 +42,8 @@ h1{
 }
 
 .table_sections{
+    overflow: hidden;
+    height: 420px;
     border: 1px solid black;
     background-color: #ffe6fb;
     margin: 15px;
