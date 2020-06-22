@@ -72,7 +72,7 @@ h3{
 #chicken_row, #beef_row, #sushi_row{
     padding: 15px;
     position: relative;
-    height: 750px;
+    height: 1000px;
 }
 #chicken_row{
     background-color: #e4b773;
