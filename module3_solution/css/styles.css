@@ -1,0 +1,68 @@
+body {
+    font-size: 16px;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+#header-nav {
+    background-color: #ff9317;
+}
+
+.navbar-brand{
+    padding-top: 10px;
+    padding-left: 25px;
+    margin-bottom: 0px;
+}
+.navbar-brand h1{
+    font-family: 'Bitter', serif;
+    color: #ffffff;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #0000008c;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+/* to expand the menu items to the edge (there should be a better way to do this)*/
+.navbar{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#collapsable_nav{
+    margin-bottom: -6px;
+}
+#menu_button{
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#menu_button:focus, #menu_button:hover{
+    border-color: rgba(255,255,255,.1);
+    background-color: rgba(255,255,255,0.5)
+}
+ul li a{
+    text-align: center;
+    border: 2px solid #ff7300;
+    background-color: #ffb764;
+    margin-bottom: -2px;
+}
+
+/* main body */
+h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 2.2em;
+}
+.container-fluid{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#main_text{
+    background-color: #ffe8ce;
+}
+h3{
+    margin-top: 10px;
+    font-size: 1.5em;
+}
